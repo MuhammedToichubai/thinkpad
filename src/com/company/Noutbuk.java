@@ -2,7 +2,7 @@ package com.company;
 
 public class Noutbuk {
    private String laptopName;    //noutbuktun aty
-   private int memory;       //pamyat
+   private int memory;        //pamyat
    private String color;    //Color color;
    private String CPU;     //processor
 
@@ -11,7 +11,7 @@ public class Noutbuk {
     }
 
     public void setLaptopName(String laptopName) {
-        if (laptopName.matches("[T-Za-d]*")){
+        if (!laptopName.matches("[A-Za-z]*")){
             System.out.println("Noutbuktun aty tamgalar menen gana jazylat");
         }else {
             this.laptopName = laptopName;

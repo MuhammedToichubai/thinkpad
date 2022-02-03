@@ -13,5 +13,11 @@ public class Main {
         System.out.println(noutbuk.getLaptopName()+" "+noutbuk.getMemory()+" "
                            +noutbuk.getColor()+" "+noutbuk.getCPU());
 
+    Student student = new Student();
+    student.setName("Dinara");
+    student.setAge((byte)18);
+    student.setGroup("Java-5");
+        System.out.println(student.getName()+" "+student.getAge()+" "+student.getGroup());
+
     }
 }
